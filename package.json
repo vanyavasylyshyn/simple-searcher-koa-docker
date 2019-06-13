@@ -1,0 +1,29 @@
+{
+  "name": "simple-searcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "node build/main",
+    "dev": "backpack dev",
+    "build": "backpack build",
+    "flow": "flow"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-flow-strip-types": "7.4.4",
+    "dotenv": "8.0.0",
+    "eslint-plugin-flowtype": "3.10.1",
+    "flow-bin": "0.101.0",
+    "koa": "2.7.0",
+    "koa-compose": "4.1.0",
+    "koa-router": "7.4.0",
+    "source-map-support": "0.5.12"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "babel-eslint": "10.0.1",
+    "backpack-core": "0.8.3",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.17.3"
+  }
+}
